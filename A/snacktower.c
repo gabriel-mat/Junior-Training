@@ -6,6 +6,7 @@
 int compare(const void *a, const void *b);
 
 int main() {
+
   int input[MAX_SIZE], sorted[MAX_SIZE], arrived[MAX_SIZE], size, expected, aux;
 
   scanf("%d", &size);
